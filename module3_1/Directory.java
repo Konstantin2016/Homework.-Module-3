@@ -11,7 +11,5 @@ public class Directory {
         this.files = files;
     }
 
-    private List<File> files;
+    private List<File> files; //поле типа List "список" с названием "files" с доступом тольько в рамках класса
     }
-
-

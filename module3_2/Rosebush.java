@@ -5,11 +5,11 @@ import java.util.List;
 public class Rosebush {
     private List<Rose> Rose;
 
-    public List<goit.homework.module3_2.Rose> getRose() {
+    public List<Rose> getRose() {
         return Rose;
     }
 
-    public void setRose(List<goit.homework.module3_2.Rose> rose) {
+    public void setRose(List<Rose> rose) {
         Rose = rose;
     }
 }

@@ -5,11 +5,11 @@ import java.util.List;
 public class MusicalShop {
     private List<MusicalInstrument> MusicalInstrument;
 
-    public List<goit.homework.module3_3.MusicalInstrument> getMusicalInstrument() {
+    public List<MusicalInstrument> getMusicalInstrument() {
         return MusicalInstrument;
     }
 
-    public void setMusicalInstrument(List<goit.homework.module3_3.MusicalInstrument> musicalInstrument) {
+    public void setMusicalInstrument(List<MusicalInstrument> musicalInstrument) {
         MusicalInstrument = musicalInstrument;
     }
 }

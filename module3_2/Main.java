@@ -17,11 +17,14 @@ public class Main {
         Chamomile chamomile = new Chamomile();
         chamomile.setQuantityFlowers(4);
 
-        List<Flower> flowersBouquet=new ArrayList<>();
+        List<Flower> flowersBouquet=new ArrayList(){
+
+        };
         flowersBouquet.add(rose);
         flowersBouquet.add(tulip);
         flowersBouquet.add(aster);
         flowersBouquet.add(chamomile);
+
         Bouquet bouquet = new Bouquet();
         bouquet.setFlowers(flowersBouquet);
 

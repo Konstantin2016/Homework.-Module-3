@@ -1,14 +1,33 @@
 package goit.homework.module4_2;
 
 public class Converter {
-    public float temperatureC;
-    public float temperatureF;
+    private float temperatureC;
+    private float temperatureF;
+    final int deltaCF = 32;
 
-    public double getTemperatureFtoC (){
-        return (float) ((temperatureF - 32) / 1.8);
+    public float getTemperatureC() {
+        return temperatureC;
     }
-    public double getTemperatureCtoF () {
-        return (float) (temperatureC * 1.8 + 32);
+
+    public void setTemperatureC(float temperatureC) {
+        this.temperatureC = temperatureC;
+    }
+
+    public float getTemperatureF() {
+        return temperatureF;
+    }
+
+    public void setTemperatureF(float temperatureF) {
+        this.temperatureF = temperatureF;
+    }
+
+    final double factorCF = 1.8;
+
+    public float getTemperatureFtoC (){
+        return (float) ((temperatureF - deltaCF) / factorCF);
+    }
+    public float getTemperatureCtoF () {
+        return (float) (temperatureC * factorCF + deltaCF);
     }
    // public void setTemperatureC(float temperatureC) {
     //    this.temperatureC = temperatureC;

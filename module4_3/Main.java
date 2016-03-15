@@ -9,5 +9,6 @@ public class Main {
         distance.setY2(6);
 
         System.out.println(distance.getDistace());
+        System.out.println(distance.getDistanseXY(22,131,14,125));
     }
 }

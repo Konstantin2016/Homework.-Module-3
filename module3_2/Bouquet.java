@@ -5,8 +5,11 @@ import java.util.List;
 public class Bouquet {
 
     private List<Flower> flowers;
+    public Bouquet(){
+        this.flowers = flowers;
+    }
 
-    public List<Flower> getFlowers() {
+        public List<Flower> getFlowers() {
         return flowers;
     }
 

@@ -1,5 +1,7 @@
 package goit.homework.module3_2;
 
+import java.util.List;
+
 abstract public class Flower {
     public int getQuantityFlowers() {
         return quantityFlowers;

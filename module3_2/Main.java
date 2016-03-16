@@ -25,8 +25,8 @@ public class Main {
         flowersBouquet.add(aster);
         flowersBouquet.add(chamomile);
 
-        Bouquet bouquet = new Bouquet();
-        bouquet.setFlowers(flowersBouquet);
+        Bouquet bouquet = new Bouquet(flowersBouquet);
+       // bouquet.setFlowers(flowersBouquet);
 
         System.out.print(bouquet.getFlowers());
 
